@@ -1,0 +1,37 @@
+.tr{
+    width: 400px;
+    margin: auto;
+    box-shadow: 5px 5px 5px rgb(82, 81, 81);
+    padding: 35px;
+    background-color: rgb(221, 157, 18);
+    text-align: center;
+    
+   
+    
+}
+.col{
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    
+  
+}
+.ty{
+    text-align: center;
+}
+.emile{
+    text-align: left;
+    margin: 20px;
+  
+}
+.low{
+    text-align: center;
+    padding: 20px;
+  
+ 
+}
+.pass{
+    margin: 20px;
+    text-align: left;
+}
+

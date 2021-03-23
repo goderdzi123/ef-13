@@ -1,0 +1,25 @@
+p{
+    text-align: center;
+    color: green;
+    font-size: 70px;
+    font-style: normal;
+}
+.class1{
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: green;
+    font-size: 30px;
+}
+.class2{
+    text-align: center;
+    text-decoration-line: line-through;
+    text-decoration-color: red;
+    font-size: 30px;
+}
+.class3{
+    text-align: center;
+    text-decoration-line: overline;
+    text-decoration-color: blue;
+    font-size: 30px;
+}
+

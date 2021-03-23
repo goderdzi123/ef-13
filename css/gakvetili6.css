@@ -1,0 +1,40 @@
+div{
+    display: inline-block;
+    width: 250px;
+    
+}
+
+
+.card9{
+    background-color: rgb(201, 200, 200);
+    height: 400px;
+}
+
+header{
+    margin-bottom: 20px;
+    
+    }
+    .card1{
+        background-color: rgb(187, 183, 183);
+    }
+    .card2{
+        background-color: rgb(32, 209, 150);
+        color: white;
+    }
+    .card3{
+        background-color: rgb(36, 145, 196);
+        color: white;
+    }
+    .card4{
+        background-color: rgb(6, 6, 71);
+        color: white;
+    }
+    .card5{
+        background-color: red;
+       color: white;
+    }
+
+    
+    
+    
+

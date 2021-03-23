@@ -1,0 +1,61 @@
+
+.product{
+    width: 300px;
+    margin: auto;
+    box-shadow: 5px 5px 5px rgb(236, 220, 220);
+    position: relative;
+}
+
+
+
+.prodhead{
+    position: relative;
+    transition: all .6s;
+}
+.prodhead:hover{
+    background-color: rgb(26, 3, 107);
+    border-radius: 15px;
+
+}
+
+.prodimg{
+    width: 100%;
+    height: 210px;
+    display: block;
+    object-fit: cover;   
+}
+
+.prod-body{
+    padding: 25px;
+    position: relative;
+    background-color: rgb(245, 233, 233);
+}
+.sm{
+    color: rgb(248, 237, 237);
+    font-size: 15px;
+    
+    
+    
+}
+.tr{
+    color: rgb(139, 136, 136);
+    font-size: 15px;
+}
+.color{
+    color:  rgba(25, 5, 80, 0.973);
+    padding: 10px;
+    font-size: 15px;
+  
+}
+.pro{
+    font-size: 20px;
+}
+.link{
+    font-size: 40px;
+}
+.pro{
+ margin: 60px;
+ color:  rgb(242, 241, 247);
+
+}
+

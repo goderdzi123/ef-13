@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100px;
+     background-image: url('../images/images\ \(1\).jpg');
+     background-size: cover;
+     background-position: center;
+     background-repeat:no-repeat;
+     background-attachment:scroll;
+      height: 750px;
+      
+      
+     
+ }
+ .im{
+     
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100px;
+     
+     background-size:cover;
+     background-position: center;
+     background-repeat:no-repeat;
+      height: 300px;
+      
+
+ }
+ 
+ 
+ 

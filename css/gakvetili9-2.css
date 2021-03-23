@@ -1,0 +1,102 @@
+header{
+    width: 99%;
+    margin: auto;
+    box-shadow: 5px 5px 25px rgba(241, 230, 230, 0.795);
+    margin:10px;
+    background-color: rgba(233, 58, 58, 0.575);
+    height: 100px;
+    opacity: 0.6;
+   
+}
+
+.product{
+    width: 100%;
+    margin: 0 auto; 
+    display: inline-block;
+}
+.product  ul{
+    list-style: none;
+    margin-left: 25%;
+}
+.product ul li{
+    background: rgb(233, 213, 215);
+    width: 130px;
+    border: 13px solid rgb(141, 36, 36);
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float:  left;
+    font-size: 15px;
+    position: relative;
+}
+.product ul li:hover{
+    background: rgb(250, 6, 6);
+}
+.product ul ul{
+    display: none;
+}
+.product ul li:hover > ul{
+    display: block;
+    margin: 0;   
+}
+.product ul ul ul{
+    margin-left: 7px;
+    top: 0;
+    position: absolute;
+}
+.col{
+    text-align: center;
+}
+
+
+.container3 {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+  
+   
+
+}
+body{
+    background-size: cover;
+     background-image: url(../images/color.jpg)
+}
+.row{
+
+    font-size: 45px;
+   
+}
+ small{
+     font-size: 15px;
+ }
+ .code{
+     font-size: 50px;
+      text-align: center;
+     margin: 30px;
+ }
+ .sea{
+     width: 130px;
+     background-color: rgb(133, 10, 10);
+     color: white;
+     padding: 15px;
+ 
+ }
+ input{
+     padding: 15px;
+     background-color: brown;
+     
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+

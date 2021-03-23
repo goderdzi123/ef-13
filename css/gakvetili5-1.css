@@ -1,0 +1,95 @@
+
+@font-face{
+    font-family: banner;
+    src: url('../font/bpg-banner-webfont.woff2');
+}
+
+body{
+    margin:0;
+    height: 2000px;
+    
+}
+
+.card{
+    width: 300px;
+    background-color: rgb(10, 10, 10);
+    color: #f7f4f5;
+    margin: 50px 25px 30px 88px ;
+    border: dashed red 2px;
+   
+    
+
+    
+}
+
+h3{
+
+    text-align: left;
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: banner;
+    text-align: center;
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+
+    
+}
+
+
+
+
+.img-responsive{
+    width: 100%;
+    
+}
+
+.card2{
+    width: 350px;
+    background-color: rgb(10, 10, 10);
+    color: #f7f4f5;
+    margin-left: 500px;
+    
+    border: dashed red 2px;
+
+}
+
+h2{
+    text-align: left;
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: banner;
+    text-align: center;
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+
+
+}
+
+
+.card3{
+    width: 400px;
+    background-color: rgb(10, 10, 10);
+    color: #f7f4f5;
+    margin-left: 900px;
+    border: dashed red 2px;
+    
+
+}
+
+h2{
+    text-align: left;
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: banner;
+    text-align: center;
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+
+
+}
+
+
+

@@ -1,0 +1,24 @@
+  body{
+      background-color: rgb(117, 93, 93);
+  }
+
+svg{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    animation-name: heart;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform: translate(-50%, -50%);
+    color:red
+   
+}
+@keyframes heart{
+    0% { transform:translate(-50%,-50%) scale(.6s); color: rgb(245, 253, 253); } 
+    100% { transform:translate(-50%,-50%)  scale(.3) ; color: red; }  
+    
+}

@@ -1,0 +1,28 @@
+@font-face{
+    font-family: banner;
+    src: url('../ef13/font/bpg-banner-webfont.woff2');
+}
+
+.card{
+
+    width: 350px ; 
+    white-space: nowrap; 
+    overflow: hidden;
+
+}
+
+
+p{
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: banner ;
+    text-align: center;
+    text-transform: uppercase;
+
+    
+}
+a{
+    font-family: banner;
+    text-decoration: none;
+}

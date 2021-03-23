@@ -1,0 +1,52 @@
+@font-face{
+    font-family: banner;
+    src: url('../ef13/font/bpg-banner-webfont.woff2');
+}
+
+.card{
+
+    width: 350px ; 
+    border-style: xxx ;
+    border-width: 5px;
+    border-color:  red;
+    margin-top: 50px;
+    margin-left: 50px ;
+    margin-bottom: 50px;
+
+
+
+    
+
+}
+
+
+
+
+p{
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: banner ;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+
+    
+}
+a{
+    font-family: banner;
+    text-decoration: none;
+}
+
+
+header{
+    background-color: red;
+    background-image: url('../ef13/images/download.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    height: 550px;
+}

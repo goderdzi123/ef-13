@@ -1,0 +1,96 @@
+body{
+   margin: o;
+   box-sizing: border-box;
+}
+.modcheck{
+    position: relative;
+    width: 250px;
+    box-shadow: 18px 13px 13px rgb(199, 32, 32);
+    border-radius: 3px;
+    margin: auto;
+    padding: 4px 27px ;
+    transition: all .9s;
+    background-color: red;
+    transform: rotate3d(-1,54,-11,);
+    transform: skew(30deg, 2deg);
+    
+
+}
+.modcheck:hover{
+    transform: rotate3d(-1,54,-11);
+}
+label:hover{
+ cursor: pointer;
+}
+.checkflex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.checkflex input{
+    display: none;
+}
+.checkflex span{
+    display: block;
+    width: 25px;
+    height: 25px;
+    border: 2px solid rgb(241, 242, 245);
+    border-radius: 50%;
+    transition: all .9s;
+    position: relative;
+}
+.checkflex .w-50, .checkflex p {
+   width: 50%;
+  z-index: 999;
+}
+.w-50{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hidden + p {
+    color: black;
+    transition: all .9s;
+  
+}
+
+.hidden:checked + p {
+    color: rgb(250, 244, 244);
+    transition: all .9s;
+    
+}
+
+
+.hidden:checked ~ div span{
+    background-color: cyan;
+    border: 2px solid rgb(235, 222, 222);
+}
+.hidden:checked + div span::after{
+ content:  "\2713";
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: rgb(245, 13, 13);
+}
+
+.hidden ~ .gb{
+    position: absolute;
+    width: 0;
+    height:100%;
+    background-color: rgb(47, 17, 179);
+    left: 50%;
+    opacity: 0;
+    top: 50%;
+    transform: translate( -50%, +50% );
+    transition: all .3s;
+  }
+  
+  
+  
+  .hidden:checked ~ .gb {
+      opacity: 1px;
+      width: 100%;
+  
+  }
+  
+

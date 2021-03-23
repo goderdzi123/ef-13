@@ -1,0 +1,45 @@
+body{
+   color: rgba(245, 238, 238, 0.74);
+ 
+}
+.product{
+    width: 100%;
+    margin: 0 auto;
+}
+.product  ul{
+    list-style: none;
+    margin-left: 20%;
+}
+.product ul li{
+    background: rgb(22, 22, 22);
+    width: 150px;
+    border: 1px solid rgb(248, 246, 246);
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float:  left;
+    font-size: 14px;
+    position: relative;
+}
+.product ul li:hover{
+    background: rgb(250, 6, 6);
+
+}
+.product ul ul{
+    display: none;
+
+}
+.product ul li:hover > ul{
+    display: block;
+    margin: 0;
+    
+
+    
+}
+.product ul ul ul{
+    margin-left: 7px;
+    top: 0;
+    position: absolute;
+
+}
+

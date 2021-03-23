@@ -1,0 +1,65 @@
+body{
+    background-image: url(../images/istockphoto-1138395421-612x612.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+
+}
+.navbar{
+    padding-left: 0px;
+    margin-left: auto;
+    text-align: right;
+    margin: 0;
+    text-transform: capitalize;
+}
+.content{
+    width: 1130px;
+    padding: 0 15px;
+    margin: auto;
+    max-width: 100%;
+}
+.navbar  li{
+    position: relative;
+    display:inline-block;
+    padding: 20px 15px;
+}
+.navbar  li a{
+    color: rgb(250, 242, 242);
+}
+
+.navbar li :last-child{
+    padding-right: 0;
+}
+
+nav{
+    box-shadow: 7px 7px 7px rgba(182, 157, 157, 0.747);
+    position: relative;
+    
+}
+*{
+
+    text-decoration: none;
+}
+h2{
+    position: absolute;
+    top: 5px;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+.ca-text{
+    width: 90%;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+  
+
+}
+.pass{
+    color: white;
+    border:  2px solid rgb(245, 241, 241);
+    font-size: 15px;
+    
+}
