@@ -36,12 +36,13 @@ cardImg.src = obj.img
 
  function myFunction() {
   
-    if (0) {
-      console.log(" არ არის მარაგში");
+    if (1 > 0) {
+      var txt = " არ არის მარაგში";
     } else {
-       console.log("  არის მარაგში");
+       var txt = "  არის მარაგში";
     }
-    document.getElementById("cards").innerHTML = cards;
+    console.log(txt);
+    document.getElementById("cards").innerHTML = txt;
   }
 
  
