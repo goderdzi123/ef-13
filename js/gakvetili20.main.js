@@ -4,7 +4,7 @@ let Product = {
   Descr:"აღწერააღწერააღწერააღწერააღწერააღწერააღწერააღწერააღწერააღწერააღწერააღწე",
   date: new Date('2021/05/07') ,
   category:"კატეგორია",
-  Quantity: 400,
+  Quantity:400 ,
   active: true,
 };
 
